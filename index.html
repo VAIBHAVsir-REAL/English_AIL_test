@@ -1,68 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Travel Info - Karnataka</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazing Alleppey Itinerary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
   <style>
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-      padding: 20px;
-      max-width: 800px;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      background-image: url('https://www.dtpcalappuzha.com/uploads/picture_gallery/gallery_images/alapuzha-boating-20230524143934138389.webp');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    .overlay {
+      background-color: rgba(0, 32, 64, 0.85);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #00d4ff;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aadcf2;
+    }
+    section {
+      max-width: 900px;
       margin: auto;
     }
-    h1, h2 {
-      color: #2c3e50;
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 1.5rem;
+      border-radius: 16px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    .section {
-      margin-bottom: 30px;
-      padding: 15px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    h2 {
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 6px;
+      margin-bottom: 1rem;
+      color: #90cdf4;
     }
-    .emoji {
-      font-size: 20px;
+    ul {
+      padding-left: 20px;
+    }
+    .highlight {
+      color: #38bdf8;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .caption {
+      text-align: center;
+      margin-top: 6px;
+      font-style: italic;
+      color: #d0e7f9;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background: #0284c7;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      display: block;
+      margin: 1rem auto 0;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #0369a1;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #a0aec0;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Travel Guidelines - Karnataka</h1>
+  <div class="overlay">
+    <header>
+      <h1>🌴 Amazing Alleppey</h1>
+      <p>7-Day Backwater Experience • 15th – 21st July, 2025</p>
+    </header>
 
-  <div class="section">
-    <h2 class="emoji">🛂 Inter-District & Border Rules</h2>
-    <p>No E-pass needed for travel within Karnataka, including Coorg. If coming from Kerala or Maharashtra, carry a negative RT-PCR COVID test (≤ 72 hours old). 14-days home quarantine expected—can end early if a second test is negative after 7 days.</p>
-    <p>Expect random checkposts (mostly at night). No fees unless documents are incorrect.</p>
+    <section>
+      <div class="card">
+        <h2>🌿 Purpose</h2>
+        <p>Explore <span class="highlight">eco-tourism</span>, culture, and recreational learning in Kerala’s iconic backwaters. A project-based field trip for students from Sunbeam School.</p>
+      </div>
+
+      <div class="card">
+        <h2>📸 Glimpses of Alleppey</h2>
+        <div class="gallery">
+          <div>
+            <img src="https://lakequeenhouseboats.com/images/houseboat.jpg" alt="Houseboat">
+            <div class="caption">Traditional Houseboat</div>
+          </div>
+          <div>
+            <img src="https://www.coirvillage.com/images/alappuzha-best%20backwater-resorts.jpg" alt="Backwater">
+            <div class="caption">Backwater Resort</div>
+          </div>
+          <div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCj0ON5dU1vDwSNd-pS3GWSe1LyUxTOtTf8dudrYOhTqDjf4vHRyjRE5axTd2XUugnZ6MdI0nxvhopoKcAOJsjZJP3HX3lg8RdJFtlUBdfDz3j8O8nXKDNBclJIqAjL27pKjV8vPj9VEcF/s1600/alleppy_tourism2.jpg" alt="Traditions">
+            <div class="caption">Local Traditions</div>
+          </div>
+          <div>
+            <img src="https://www.stayvista.com/blog/wp-content/uploads/2024/09/alleppey-3941573_1280.jpg" alt="Scene">
+            <div class="caption">Scenic Serenity</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>📍 Location</h2>
+        <p>Coconut Grove Resort, Alappuzha (Alleppey), Kerala</p>
+      </div>
+
+      <div class="card">
+        <h2>📅 Daily Schedule</h2>
+        <ul>
+          <li><strong>Day 1:</strong> Arrival, orientation, beach walk, and dinner</li>
+          <li><strong>Day 2:</strong> Houseboat cruise, eco-tourism activities, and dance show</li>
+          <li><strong>Day 3:</strong> Palace visit, beach games, and museum tour</li>
+          <li><strong>Day 4:</strong> Village walk, coir making demo, night campfire</li>
+          <li><strong>Day 5:</strong> Temple visit, local food tasting, Sadya feast</li>
+          <li><strong>Day 6:</strong> Kayaking, boat race demo, farewell dinner</li>
+          <li><strong>Day 7:</strong> Return to Cochin and fly back to Delhi</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>📞 Key Contacts</h2>
+        <ul>
+          <li>Mr. XYZ – Trip Collaborator (📞 +91-98XXXXXXX1)</li>
+          <li>Ms. ABC – Trip Coordinator (📞 +91-98XXXXXXX2)</li>
+          <li>Mr. Arun – Local Guide (📞 +91-98XXXXXXX3)</li>
+          <li>Mrs. PQR – Emergency Contact (📞 +91-98XXXXXXX4)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🚍 Logistics</h2>
+        <ul>
+          <li><span class="highlight">Flight:</span> Delhi → Cochin (IndiGo)</li>
+          <li><span class="highlight">Bus:</span> Cochin → Alleppey</li>
+          <li><span class="highlight">Stay:</span> Coconut Grove Resort</li>
+          <li><span class="highlight">Check-in:</span> 15 July | <span class="highlight">Check-out:</span> 21 July</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>⚠️ Reminders</h2>
+        <ul>
+          <li>Carry ID card, tickets, water bottle</li>
+          <li>Wear life jackets for water activities</li>
+          <li>Follow COVID protocols</li>
+          <li>Bring sunscreen, notebook, mosquito repellent</li>
+        </ul>
+      </div>
+
+      <button onclick="window.print()">🖨️ Download / Print Itinerary</button>
+    </section>
+
+    <footer>
+      Created for educational field trip – Sunbeam School • Designed by XYZ
+    </footer>
   </div>
-
-  <div class="section">
-    <h2 class="emoji">🚍 Transport & Checkpoints</h2>
-    <p>KSRTC buses (AC/Volvo) run at ~50% capacity. Expect temperature checks and mask checks.</p>
-    <p>Private vehicles may be stopped at checkposts. Valid ID and RC may be asked. Sometimes a small ₹20 fee.</p>
-    <p>Avoid late-night travel due to mist, fewer vehicles, and remote checks.</p>
-  </div>
-
-  <div class="section">
-    <h2 class="emoji">😷 Health & Safety Protocols</h2>
-    <p>Masks, hand hygiene, and 2 m distancing are mandatory in public places, hotels, and tourist spots.</p>
-    <p>Thermal checks at transport hubs and hotels. Symptomatic travelers are denied entry.</p>
-    <p>Self-declaration (travel history, ID) required. Hotels keep this info. Aarogya Setu app is advised.</p>
-  </div>
-
-  <div class="section">
-    <h2 class="emoji">🏨 Accommodation & Homestays</h2>
-    <p>Only asymptomatic guests allowed. Luggage is sanitized. No room visitors, minimum staff contact.</p>
-    <p>Homestays must be registered (max 5–6 rooms, owner must live there). Unregistered ones may be shut.</p>
-  </div>
-
-  <div class="section">
-    <h2 class="emoji">🏛️ Tourist Attractions & Police</h2>
-    <p>CCTV, “tourist mitras” (tourist police), and helplines exist but coverage is limited.</p>
-    <p>Police may restrict access to major sites. Rely on local guides for timings & tips.</p>
-  </div>
-
 </body>
 </html>
